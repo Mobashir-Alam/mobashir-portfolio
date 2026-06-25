@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #0a0a0f;
+  color: #e8e8f0;
+  overflow-x: hidden;
+}
+
+.grad-text {
+  background: linear-gradient(135deg, #fff 30%, #a78bfa 70%, #22d3a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.accent-grad-text {
+  background: linear-gradient(135deg, #a78bfa, #22d3a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-glow {
+  background: radial-gradient(ellipse at 50% 0%, rgba(108,99,255,0.1) 0%, transparent 70%);
+}
