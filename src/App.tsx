@@ -53,8 +53,8 @@ const PROJECTS = [
   {
     emoji: "🚀",
     name: "Personal Portfolio",
-    desc: "Responsive developer portfolio showcasing projects and skills. Deployed and managed in production on Hostinger.",
-    tags: ["HTML", "CSS", "JavaScript", "Hostinger"],
+    desc: "This portfolio — a single-page React app with animated dark theme, smooth scroll sections, CV download, and direct WhatsApp/email contact. Deployed live on Vercel.",
+    tags: ["React 18", "TypeScript", "Tailwind CSS", "Vite", "Vercel"],
   },
 ];
 
